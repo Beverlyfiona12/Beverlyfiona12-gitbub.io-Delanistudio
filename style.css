@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+}
+.homepage{
+    background-image: url('images/div1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top:17%; 
+}
