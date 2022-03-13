@@ -11,7 +11,12 @@ $(document).ready(function(){
       $("#development").click(function() {
         $(".development, #development").toggle("slow");
       });
-    
+      $(".product").click(function() {
+        $("#product, .product").toggle("slow");
+      });
+      $("#product").click(function() {
+        $(".product, #product").toggle("slow");
+      });
   });
   
   
