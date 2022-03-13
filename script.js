@@ -1,22 +1,20 @@
-$(document).ready(function(){
-    $(".design").click(function() {
-      $("#design, .design").toggle("slow");
-    });
-    $("#design").click(function() {
-        $(".design, #design").toggle("slow");
-      });
-      $(".development").click(function() {
-        $("#development, .development").toggle("slow");
-      });
-      $("#development").click(function() {
-        $(".development, #development").toggle("slow");
-      });
-      $(".product").click(function() {
-        $("#product, .product").toggle("slow");
-      });
-      $("#product").click(function() {
-        $(".product, #product").toggle("slow");
-      });
-  });
+
+$(document).ready(function() {
+
+    $("#design").click(function(){
+      $("#design-showing").toggle("slow");
+      $(".hide-design-image").toggle();
+    })
   
+    $("#development").click(function(){
+      $("#development-showing").toggle("slow");
+      $(".hide-development-image").toggle();
+    })
+  
+    $("#product").click(function(){
+      $("#product-showing").toggle("slow");
+      $(".hide-product").toggle();
+    })
+
+});
   
