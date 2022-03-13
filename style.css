@@ -77,3 +77,20 @@ display: none;
       padding-left: 50px;
       padding-right: 50px;
   }
+/* CONTACT US */
+.forme{
+    background-image: url('./images/div6.jpg');
+    background-size:cover;
+    display: cover;
+     padding: 10%;
+}
+
+  .submit{
+    position:absolute;
+    padding-left: 25%;
+   
+  }
+  
+  
+  
+  
