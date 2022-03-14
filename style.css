@@ -6,6 +6,10 @@ html {
         scroll-behavior: smooth;
 }
 /* PAGE 1 */
+.landing{
+  padding-top: 20%;
+}
+
 .homepage{
     background-image: url('images/div1.jpg');
     background-position: center;
@@ -22,10 +26,10 @@ html {
   width: 70px;
 }
 .homepage h1{
-    padding: 2px;
+    padding: 10px;
   margin: 5px;
   color: white;
-
+text-align: center;
 }
 #mouse{
   padding-top: 15%;
