@@ -27,6 +27,24 @@ html {
   color: white;
 
 }
+#mouse{
+  padding-top: 15%;
+  padding-bottom: 1%;
+}
+#bounce {
+  animation: bounce 3s infinite;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-55px);
+  }
+  60% {
+      transform: translateY(-45px);
+  }
+}
 /* SERVICES */
 .service{
     text-align: center;
@@ -46,14 +64,14 @@ h1.text-center{
 display: none;
 }
 /* PORTFOLIO */
-/* .overlay{ */
-    /* background-color: black;
+.overlay{ 
+     background-color: black;
     opacity: 0.7;
-    position: absolute;
+     position: absolute; 
     top: 0;
     bottom: 0;
     width: 90%;
-  } */
+  }
 
   .workimage{
     position: relative;
@@ -78,19 +96,61 @@ display: none;
       padding-right: 50px;
   }
 /* CONTACT US */
-.forme{
-    background-image: url('./images/div6.jpg');
-    background-size:cover;
-    display: cover;
-     padding: 10%;
-}
 
   .submit{
     position:absolute;
     padding-left: 25%;
+    background-color: transparent;
    
   }
   
-  
-  
-  
+  input.btn{
+    display:inline-block;
+    padding: 1px 6px;
+    color: transparent;
+    
+  }
+  .contact {
+    background-image: url('./images/div6.jpg');
+    background-size: cover;
+    height: 480px;
+    position: relative;
+    padding: 90px;
+    text-align: center;
+  }
+  .contact h5{
+    text-align: center;
+    color: #fff;
+}
+ .contact input[type="text"]{
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px; 
+     color: #fff;
+    font-size: 16px;
+} 
+.contact input[type="email"]{
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+} 
+
+
+::placeholder {  
+   color: white; 
+} 
+#message{
+   margin-left: 120px;
+}
+.end{
+   text-align: center;
+}
+
+textarea{
+   background: transparent;
+   color: #fff;
+}
