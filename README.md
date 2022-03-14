@@ -20,6 +20,7 @@ Step 1 : Clone this repository using git clone
 Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location and opened
 Step 3 : Open the index.html file to view the application on your preferred web browser
 ### 5.Link to Live site on Githubpages
+https://beverlyfiona12.github.io/Beverlyfiona12-gitbub.io-Delanistudio/
 
 ### 6.Copyright License
 MIT License
